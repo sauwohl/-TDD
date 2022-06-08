@@ -11,7 +11,7 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 offset-md-4 jumbotron">
+				<div class="col-md-6 offset-md-3 jumbotron">
 					<div class="text-center">
 							<h1>{% block header_text %}{% endblock %}</h1>
 							<form method="post" action={% block form_action %}{% endblock %}>
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 		<div class="row">
-			<div class="col-md-4 offset-md-4">
+			<div class="col-md-6 offset-md-3">
 		{% block table %}
 		{% endblock %}
 			</div>
